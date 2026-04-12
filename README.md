@@ -23,28 +23,7 @@ https://codeigniter.com/download
 For XAMPP, for example:  
 - C:\xampp\htdocs\ci4-survey
 
-3. Copy all project files into the extracted folder:
-- app/Config/Routes.php
-- app/Config/Filters.php
-- app/Filters/AdminAuthFilter.php
-- app/Libraries/CsvParser.php
-- app/Models/AdminModel.php
-- app/Models/SurveyModel.php
-- app/Models/QuestionModel.php
-- app/Models/ResponseModel.php
-- app/Controllers/Home.php
-- app/Controllers/SurveyController.php
-- app/Controllers/Admin/AuthController.php
-- app/Controllers/Admin/DashboardController.php
-- app/Controllers/Admin/ResultsController.php
-- app/Views/layouts/admin.php
-- app/Views/admin/login.php
-- app/Views/admin/dashboard.php
-- app/Views/admin/results.php
-- app/Views/survey/take.php
-- app/Views/survey/thankyou.php
-- app/Views/survey/unavailable.php
-
+3. Create the some fil in controllers,models,views,filters
 4. Create the database and tables  
 Open phpMyAdmin and run the database.sql file provided in the project.  
 This will create the survey_db database with all required tables and a default admin account.
@@ -251,8 +230,8 @@ Rules:
 
 1. Admin Login
 - URL: http://localhost:8080/admin/login
-- Username: admin
-- Password: admin123
+- Username: your username
+- Password: your password
 
 2. Admin Dashboard
 - URL: http://localhost:8080/admin/dashboard
