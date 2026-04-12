@@ -59,8 +59,8 @@ Now open your browser and access the project via:
 
 | Field    | Value    |
 |----------|----------|
-| Username | admin    |
-| Password | admin123 |
+| Username | username |
+| Password | password |
 
 > **Important:** Change the password after first login.
 
